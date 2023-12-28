@@ -1,0 +1,16 @@
+<%- include('partials/header'); -%>
+
+<form action="/contactus", method="post">
+    <h2>Contact us</h2>
+    <label for="name">name</label>
+    <input type="text" name="name" required>
+    <label for="email">email</label>
+    <input type="text" name="email" required>
+    <div class="email error"></div>
+    <label for="message">message</label>
+    <textarea name="message" id="message" cols="50" rows="10" required></textarea>
+    <div class="message error"></div>
+    <button>submit</button>
+</form>
+
+<%- include('partials/footer'); -%>
