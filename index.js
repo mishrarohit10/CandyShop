@@ -22,7 +22,7 @@ dotenv.config();
 // database connection
 const dbURI = `mongodb+srv://${process.env.USER_NAME}:${process.env.PASSWORD}@cluster0.muz34y3.mongodb.net/node-auth`;
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex:true })
-  .then((result) => app.listen(3000))
+  .then((result) => app.listen(process.env.PORT))
   .catch((err) => console.log(err));
 
 // routes
