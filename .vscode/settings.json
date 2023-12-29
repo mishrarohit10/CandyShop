@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/504948ec-72c8-4ea6-b98b-ef6091593414/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/mishracandyshop",
+    "appService.deploySubpath": "."
+}
